@@ -35,7 +35,7 @@ Here's an example from CoCoLoFa.
         {
             "id": "6078",
             "news_id": 427,
-            "worker_id": "A1MJVTR0PCKBWW",
+            "worker_id": 18,
             "respond_to": "",
             "fallacy": "slippery slope",
             "comment": "Once you let them dictate rules against fairness, they will continue the problem. It only gets worse. Rights will be trampled and compromised."
@@ -43,7 +43,7 @@ Here's an example from CoCoLoFa.
         {
             "id": "6678",
             "news_id": 427,
-            "worker_id": "A2FCGEU5RTEWG8",
+            "worker_id": 15,
             "respond_to": "6078",
             "fallacy": "none",
             "comment": "I understand why you think having a rule that you believe is unfair would be troubling and lead to more unfairness. I think we  need to look at the bigger picture here. A rule that you see is unfair might seem very fair to another person. Fairness is a very subjective issue and all of us will see it differently based on our experiences. Can you think of a rule or law that has been widely praised that you might see as unfair to yourself or others? Sometimes we need to look outside our own biases and see that other people can see things quite differently. Once we can see those differences we can then come together and find solutions that can meet all of our needs. I suggest that all of us meet with others with different opinions and listen to their views. That will be a great step for us all."
@@ -64,7 +64,7 @@ where the fields are:
 For each comment, the fields are:
 + `id`: the ID of the comment (string)
 + `news_id`: the ID of the corresponding news atricle (int)
-+ `worker_id`: the ID of the crowdworker (string)
++ `worker_id`: the ID of the crowdworker (int)
 + `respond_to`: the ID of the comment that this comment responded to (string)
 + `fallacy`: the logical fallacy contained in this comment, which can be one of "appeal to authority,"  "appeal to majority,"  "appeal to nature,"  "appeal to tradition,"  "appeal to worse problems,"  "false dilemma,"  "hasty generalization,"  "slippery slope,"  or "none" (string)
 + `comment`: the comment written by a crowdworker (string)
