@@ -72,3 +72,15 @@ For each comment, the fields are:
 ## Citation
 
 CoCoLoFa was created using the techniques proposed in the following paper. Please cite this work if you use CoCoLoFa.
+
+```
+@misc{yeh2024cocolofadatasetnewscomments,
+      title={CoCoLoFa: A Dataset of News Comments with Common Logical Fallacies Written by LLM-Assisted Crowds}, 
+      author={Min-Hsuan Yeh and Ruyuan Wan and Ting-Hao 'Kenneth' Huang},
+      year={2024},
+      eprint={2410.03457},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.03457}, 
+}
+```
